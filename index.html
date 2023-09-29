@@ -23,12 +23,18 @@
         </div>
         <div class="borde-bienvenida">
             <div class="bienvenida">
-                <div class="texto-banner">
+                <div class="texto-banner" style="transform: translateY(20%);">
                     <div><h1 style="margin: 10px;">Bienvenido a La Boutique</h1></div>
                     <div>
                     <p style="margin: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor sit amet nulla et vestibulum. Sed non eros sed metus volutpat pulvinar ut a arcu. Suspendisse tempor, purus ac venenatis aliquet, urna turpis finibus diam, nec luctus eros augue fermentum nisl. Quisque eu risus volutpat, ullamcorper enim maximus, rutrum augue. Integer at malesuada diam, vitae ultrices sem. Curabitur ultricies aliquet sapien vel ullamcorper. Praesent pellentesque, purus a pellentesque consequat, massa nulla consectetur tortor, nec lacinia ex purus semper massa. In justo ipsum, interdum eget blandit nec, dictum non eros. Vivamus a tellus eu libero interdum tincidunt sit amet ac libero. Proin ex odio, vehicula vel dolor ac, semper venenatis magna. Ut nec dignissim ex. Sed consequat sem sed viverra fermentum.</p>
                     </div>
-                    <div><button style="margin: 10px;">Crear una Cuenta</button></div>
+                    <div>
+                        <a href="#">
+                        <button style="margin: 10px;" class="boton">
+                            <span>Crear una Cuenta</span>
+                        </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,9 +43,16 @@
         <div style="background-color: black;padding: 10px;color: white;">
         <div class="productos">
             <div class="texto-productos">
-                <h2>Producto mas Vendido</h2>
-                <h2>Producto mas Recomendado</h2>
-                <h2>Producto mas Buscado</h2>
+                <div>
+                    <h2>Producto mas Vendido</h2>
+                </div>
+                <div>
+                    <h2>Producto mas Recomendado</h2>
+                </div>
+                <div>
+                    <h2>Producto mas Buscado</h2>
+                </div>
+                
             </div>
             <div class="divproductos">
             <figure>
@@ -56,19 +69,25 @@
             </div>
         </div>
         <div class="prescentacion">
-            <div style="width: 50%;">
+            <div style="width: 50%;transform: translateX(15%);">
                 <iframe width="350px" height="350px" src="https://www.youtube.com/embed/-SQA4-AJ_JM?si=UXPiPtoI1lHhnYlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
             </div>
             <div style="width: 50%;text-align: center;text-justify: distribute;">
-                <h2>Video de Prescentacion</h2>
+                <div class="titulodiv">
+                    <h2>Video de Prescentacion</h2>
+                </div>
                 <p style="margin: 5px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor sit amet nulla et vestibulum. Sed non eros sed metus volutpat pulvinar ut a arcu. Suspendisse tempor, purus ac venenatis aliquet, urna turpis finibus diam, nec luctus eros augue fermentum nisl. Quisque eu risus volutpat, ullamcorper enim maximus, rutrum augue. Integer at malesuada diam, vitae ultrices sem. Curabitur ultricies aliquet sapien vel ullamcorper. Praesent pellentesque, purus a pellentesque consequat, massa nulla consectetur tortor, nec lacinia ex purus semper massa. In justo ipsum, interdum eget blandit nec, dictum non eros. Vivamus a tellus eu libero interdum tincidunt sit amet ac libero. Proin ex odio, vehicula vel dolor ac, semper venenatis magna. Ut nec dignissim ex. Sed consequat sem sed viverra fermentum.</p>
             </div>
         </div>
         </div>
         <section>
             <div style="display:flex;justify-content: center;align-items: center;color: white;">
-                <div class="productos-texto"><h1 id="marcas">Las Marcas que tenemos son</h1></div>
+                <div class="productos-texto">
+                    <div class="titulodiv">
+                        <h1 id="marcas">Las Marcas que tenemos son</h1>
+                    </div>
+                </div>
             </div>
 
             <div class="parimg">
@@ -82,7 +101,9 @@
             </div>
 
             <div style="text-align: center;padding: 40px;">
-                <a href="nosotros.html"><button>Detalles</button></a>
+                <a href="#">
+                    <button class="boton">Detalles</button>
+                </a>
             </div>
         </section>
         </main>
@@ -97,15 +118,15 @@
             </div>
             <div>
                 <p>Contactos</p>
-                <a href=""><p>enlace 1</p></a>
-                <a href=""><p>enlace 2</p></a>
-                <a href=""><p>enlace 3</p></a>
+                <a href="" class="enlace"><p>enlace 1</p></a>
+                <a href="" class="enlace"><p>enlace 2</p></a>
+                <a href="" class="enlace"><p>enlace 3</p></a>
             </div>
             <div>
                 <p>Acerca de</p>
-                <a href=""><p>enlace 1</p></a>
-                <a href=""><p>enlace 2</p></a>
-                <a href=""><p>enlace 3</p></a>
+                <a href="" class="enlace"><p>enlace 1</p></a>
+                <a href="" class="enlace"><p>enlace 2</p></a>
+                <a href="" class="enlace"><p>enlace 3</p></a>
             </div>
             <div style="display: flex;flex-direction: column;margin-top: 5px;">
                 <img src="imagenes/face.png" alt="logo face"  class="imgredes">

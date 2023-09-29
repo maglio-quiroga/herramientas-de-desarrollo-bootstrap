@@ -3,6 +3,7 @@
 }
 a{
     color: rgb(221, 221, 221);
+
 }
 html{
     background-color: black;
@@ -93,6 +94,7 @@ button{
     border: none;
     outline: none;
     font-size: 15px;
+    cursor: pointer;
 }
 .video{
     border-radius: 50%;
@@ -122,4 +124,32 @@ figure{
 .parimg img{
     border-radius: 50px;
     border: 10px solid rgb(54, 54, 54);
+}
+
+.boton{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px,20px;
+    font-weight: bold;
+    border: 3px solid rgb(102, 102, 102);
+    color: white;
+    position: relative;
+    background: transparent;
+    transition: .3s;
+}
+.titulodiv{
+    background-color: rgb(236, 185, 89);
+    border-radius: 50px;
+    padding: 5px 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 5px;
+    box-shadow: inset 0px 0px 16px 8px orange;
+}
+.enlace{
+    color: rgb(226, 226, 226);
+}
+.enlace:hover{
+    color: orange;
 }
