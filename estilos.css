@@ -82,7 +82,6 @@ html{
     color: white;
 }
 /*iniciar y registrar*/
-
 .flexform1{
     color: white;
     background-color: rgb(44, 44, 44);
@@ -125,7 +124,7 @@ html{
     align-content: center;
 }
 .form2{
-    width: 350px;
+    width: 450px;
     height: 650px;
     display: flex;
     flex-direction: column;
@@ -198,6 +197,9 @@ figure{
     position: relative;
     background: transparent;
     transition: .3s;
+}
+button:hover{
+    color: orange;
 }
 .titulodiv{
     background-color: rgb(236, 185, 89);
