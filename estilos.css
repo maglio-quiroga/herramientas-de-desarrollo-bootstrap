@@ -251,6 +251,7 @@ figure{
 .parimg div{
     margin-top: 10px;
     margin-left: 20px;
+    margin: 40px;
 }
 
 .boton{
@@ -282,4 +283,12 @@ button:hover{
 }
 .enlace:hover{
     color: orange;
+}
+.card-body{
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+.card-body:hover{
+    background-color: rgb(250, 180, 49);
+    transition: 0.4s;
 }
