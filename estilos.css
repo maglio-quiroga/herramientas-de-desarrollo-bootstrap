@@ -292,3 +292,10 @@ button:hover{
     background-color: rgb(250, 180, 49);
     transition: 0.4s;
 }
+.contenido-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.contenido-nav a:hover{
+    color: orange;
+}
