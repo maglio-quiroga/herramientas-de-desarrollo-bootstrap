@@ -299,3 +299,9 @@ button:hover{
 .contenido-nav a:hover{
     color: orange;
 }
+.collapse a:hover{
+    color: orange;
+}
+.carousel-inner img{
+   height: 450px;
+}
