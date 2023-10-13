@@ -114,7 +114,7 @@ html{
     border: 5px solid white;
     border-radius: 5px;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 20px;
     
 }
 .form .login{
@@ -319,4 +319,7 @@ button:hover{
     border: none;
     outline: none;
     font-size: 15px;
+}
+.boton-nav{
+    background-color: transparent;
 }
